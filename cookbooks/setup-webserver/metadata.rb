@@ -4,6 +4,6 @@ maintainer_email 'stewart.snow@snowsd.com'
 license 'all_rights'
 description 'Installs/Configures setup-webserver'
 long_description 'Installs/Configures setup-webserver'
-version '0.1.0'
+version '0.1.6'
 
-depends 'apt', '~> 2.9.2'
+depends 'firewall', '~> 2.4.0'

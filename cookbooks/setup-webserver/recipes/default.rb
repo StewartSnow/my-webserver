@@ -3,5 +3,8 @@
 # Recipe:: default
 #
 # Copyright (c) 2016 The Authors, All Rights Reserved.
+apt_update 'all platforms' do
+  action :update
+end
 
-include_recipe 'apt::default'
+include_recipe 'setup-webserver::firewall'
