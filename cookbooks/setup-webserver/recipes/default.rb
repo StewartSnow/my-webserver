@@ -8,3 +8,4 @@ apt_update 'all platforms' do
 end
 
 include_recipe 'setup-webserver::firewall'
+include_recipe 'setup-webserver::web_user'
