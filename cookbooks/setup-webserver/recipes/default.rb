@@ -9,3 +9,4 @@ end
 
 include_recipe 'setup-webserver::firewall'
 include_recipe 'setup-webserver::web_user'
+include_recipe 'setup-webserver::web'
